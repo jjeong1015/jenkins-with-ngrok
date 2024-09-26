@@ -21,9 +21,8 @@ $ ngrok http http://localhost:8080
 ```
 <!-- ngrok config add-authtoken 2mazkbTnosXgNxUn7GmF9DCltsR_c2eF9uiFGTPBtf3TxBqn -->
 
-### 🐧 Linux에서의 ngrok 사용 예시
 ```bash
-# Linux
+# CMD
 $ ngrok http http://localhost:8888
 ```
 Ngrok에서 제공된 URL을 GitHub Webhook의 Payload URL에 입력하고 /github-webhook/을 추가한다.
