@@ -15,8 +15,8 @@ Jenkins와 Ngrok을 활용한 CI/CD 파이프라인 구축 가이드이다. 포�
 Ngrok을 활용해 로컬 환경을 외부에서 접근 가능하도록 설정한다.
 ```bash
 # CMD
-$ ngrok config add-authtoken YOUR_AUTHTOKEN
 $ cd C:\02.devEnv
+$ ngrok config add-authtoken YOUR_AUTHTOKEN
 $ ngrok http http://localhost:8080
 ```
 <!-- ngrok config add-authtoken 2mazkbTnosXgNxUn7GmF9DCltsR_c2eF9uiFGTPBtf3TxBqn -->
