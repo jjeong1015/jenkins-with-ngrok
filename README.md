@@ -1,8 +1,9 @@
 # 🚀 Jenkins와 Ngrok을 활용한 CI/CD 파이프라인 구축
 Jenkins와 Ngrok을 활용한 CI/CD 파이프라인 구축 가이드이다. <br>
-포트포워딩부터 Jenkins 설정까지 단계별로 설명하고 있으며, 관련 명령어와 사진을 포함해 따라 하기 쉽게 구성했다.
+포트포워딩부터 Jenkins 설정까지 단계별로 설명하고 있으며, 관련 명령어와 사진을 포함해 따라 하기 쉽게 구성했다. <br>
 
-<br>
+## 기술 스택
+<img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=VirtualBox&logoColor=black"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=black"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"><img src="https://img.shields.io/badge/Ngrok-1F1E37?style=for-the-badge&logo=ngrok&logoColor=white">
 
 ## 🎡 Jenkins란?
 수동으로 진행해야 하는 소프트웨어 개발과 배포 과정에서 반복적인 작업을 **자동화**하는 데 최적화된 도구이다.
@@ -119,3 +120,9 @@ $ docker start myjenkins
 
 #### GitHub에 커밋 시 자동으로 빌드 트리거가 작동하도록 설정한다.
 ![9999-1](https://github.com/user-attachments/assets/1cad4450-6ccc-4b40-994d-4e977542bf68)
+
+## 🔍 교훈 및 적용
+GitHub Webhook을 Jenkins와 연동하여 커밋 시 자동으로 빌드가 실행되도록 설정 : 코드 변경사항이 실시간으로 반영되어 신속한 배포가 가능
+
+## 🌱 발전
+Jenkins와 Ngrok을 활용하여 CI/CD 파이프라인을 구축하고 운영함으로써, 개발과 배포 간의 시간 차이를 크게 줄일 수 있었
