@@ -122,7 +122,8 @@ $ docker start myjenkins
 ![9999-1](https://github.com/user-attachments/assets/1cad4450-6ccc-4b40-994d-4e977542bf68)
 
 ## 🔍 교훈 및 적용
-GitHub Webhook을 Jenkins와 연동하여 커밋 시 자동으로 빌드가 실행되도록 설정 : 코드 변경사항이 실시간으로 반영되어 신속한 배포가 가능
+코드 변경사항이 실시간으로 반영되어 빠른 배포
+- GitHub Webhook을 Jenkins와 연동하여 커밋 시 자동으로 빌드가 실행되도록 설정했다.
 
 ## 🌱 발전
-Jenkins와 Ngrok을 활용하여 CI/CD 파이프라인을 구축하고 운영함으로써, 개발과 배포 간의 시간 차이를 크게 줄일 수 있었
+Jenkins와 Ngrok을 활용하여 CI/CD 파이프라인을 구축하고 운영함으로써, 개발과 배포 간의 시간 차이를 크게 줄일 수 있었다.
