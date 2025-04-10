@@ -46,10 +46,11 @@ Ngrok을 활용하면 **고정된 퍼블릭 URL을 제공하여 GitHub Webhook�
 <br>![9999-2](https://github.com/user-attachments/assets/0b9c8f4d-d351-49a8-a253-e1720d2b35dc)
 
 ## 1. Ngrok
+Ngrok 다운로드 필수 : https://ngrok.com/downloads/windows <br>
 Ngrok을 활용해 로컬 환경을 외부에서 접근 가능하도록 설정한다.
 ```bash
 # CMD
-$ cd C:\02.devEnv
+$ cd C:\02.devEnv # ngrok 파일 있는 경로
 $ ngrok config add-authtoken YOUR_AUTHTOKEN
 $ ngrok http http://localhost:8080
 ```
